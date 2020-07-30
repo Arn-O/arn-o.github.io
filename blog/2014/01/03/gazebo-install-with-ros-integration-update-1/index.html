@@ -1,0 +1,461 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Gazebo Install With ROS Integration - Update 1 - Arn-O learns robotics engineering</title>
+  <meta name="author" content="Arn-O">
+
+  
+  <meta name="description" content="First version of the tutorial: here. All the steps described in the first version should be applied. The ros-hydro-ros-controllers should also be &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://Arn-O.github.io/blog/2014/01/03/gazebo-install-with-ros-integration-update-1">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Arn-O learns robotics engineering" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Arn-O learns robotics engineering</a></h1>
+  
+    <h2>My journey to mastering the art of designing and controlling robots.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:Arn-O.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Gazebo Install With ROS Integration - Update 1</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-03T20:23:14+01:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>First version of the tutorial: <a href="http://arn-o.github.io/blog/2013/11/19/gazebo-install-with-ros-integration/">here</a>.</p>
+
+<p>All the steps described in the first version should be applied. The <code>ros-hydro-ros-controllers</code> should also be installed (see the issue described <a href="http://arn-o.github.io/blog/2014/01/02/ros-controller-package-dependency-missing/">here</a>). You are now ready to test your installation.</p>
+
+<p>A nice way to validate it on your side is to use the <code>gazebo_ros_demo</code> package. This package provides a simple 2 joints, 3 links robot, the rrbot (rr means 2 planar revolute joints).</p>
+
+<p>You will need to install catkin (official tutorial <a href="http://wiki.ros.org/catkin/Tutorials/create_a_workspace">there</a>). I&rsquo;m used to install it on my <code>~/Documents</code> folder:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>mkdir -p ~/Documents/catkin_ws/src
+</span><span class='line'>cd ~/catkin_ws/
+</span><span class='line'>catkin_make
+</span><span class='line'>source devel/setup.bash</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Clone the <a href="https://github.com/ros-simulation/gazebo_ros_demos">demo package</a> and run the following commands.</p>
+
+<p>For the robot visualization:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>roslaunch rrbot_description rrbot_rviz.launch</span></code></pre></td></tr></table></div></figure>
+
+
+<p><img src="/images/blog/rrbot-in-rviz.png" alt="rrbot-in-rviz" /></p>
+
+<p>Close the visualisation and start the robot simulation:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>roslaunch rrbot_gazebo rrbot_world.launch</span></code></pre></td></tr></table></div></figure>
+
+
+<p>You will see:</p>
+
+<p><img src="/images/blog/rrbot-in-gazebo.png" alt="rrbot-in-gazebo" /></p>
+
+<p>(the robot should fall from the initial unstable position)</p>
+
+<p>Start the controllers from another terminal:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>roslaunch rrbot_control rrbot_control.launch </span></code></pre></td></tr></table></div></figure>
+
+
+<p>If everything is fine, you should see a log similar to this one from the terminal of the controllers node:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>arnaud@hercules:~$ roslaunch rrbot_control rrbot_control.launch
+</span><span class='line'>... logging to /home/arnaud/.ros/log/099644b2-73a2-11e3-a5db-0016eae586be/roslaunch-hercules-15250.log
+</span><span class='line'>Checking log directory for disk usage. This may take awhile.
+</span><span class='line'>Press Ctrl-C to interrupt
+</span><span class='line'>Done checking log file disk usage. Usage is &lt;1GB.
+</span><span class='line'>
+</span><span class='line'>started roslaunch server http://hercules:56421/
+</span><span class='line'>
+</span><span class='line'>SUMMARY
+</span><span class='line'>========
+</span><span class='line'>
+</span><span class='line'>PARAMETERS
+</span><span class='line'> * /rosdistro
+</span><span class='line'> * /rosversion
+</span><span class='line'> * /rrbot/joint1_position_controller/joint
+</span><span class='line'> * /rrbot/joint1_position_controller/pid/d
+</span><span class='line'> * /rrbot/joint1_position_controller/pid/i
+</span><span class='line'> * /rrbot/joint1_position_controller/pid/p
+</span><span class='line'> * /rrbot/joint1_position_controller/type
+</span><span class='line'> * /rrbot/joint2_position_controller/joint
+</span><span class='line'> * /rrbot/joint2_position_controller/pid/d
+</span><span class='line'> * /rrbot/joint2_position_controller/pid/i
+</span><span class='line'> * /rrbot/joint2_position_controller/pid/p
+</span><span class='line'> * /rrbot/joint2_position_controller/type
+</span><span class='line'> * /rrbot/joint_state_controller/publish_rate
+</span><span class='line'> * /rrbot/joint_state_controller/type
+</span><span class='line'>
+</span><span class='line'>NODES
+</span><span class='line'>  /
+</span><span class='line'>    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+</span><span class='line'>  /rrbot/
+</span><span class='line'>    controller_spawner (controller_manager/spawner)
+</span><span class='line'>
+</span><span class='line'>ROS_MASTER_URI=http://localhost:11311
+</span><span class='line'>
+</span><span class='line'>core service [/rosout] found
+</span><span class='line'>process[rrbot/controller_spawner-1]: started with pid [15268]
+</span><span class='line'>process[robot_state_publisher-2]: started with pid [15269]
+</span><span class='line'>/opt/ros/hydro/lib/robot_state_publisher/robot_state_publisher
+</span><span class='line'>[INFO] [WallTime: 1388662796.290004] [0.000000] Controller Spawner: Waiting for service controller_manager/load_controller
+</span><span class='line'>[INFO] [WallTime: 1388662796.297931] [0.000000] Controller Spawner: Waiting for service controller_manager/switch_controller
+</span><span class='line'>[INFO] [WallTime: 1388662796.305906] [0.000000] Controller Spawner: Waiting for service controller_manager/unload_controller
+</span><span class='line'>[INFO] [WallTime: 1388662796.319537] [0.000000] Loading controller: joint_state_controller
+</span><span class='line'>[INFO] [WallTime: 1388662796.927781] [234.131000] Loading controller: joint1_position_controller
+</span><span class='line'>[INFO] [WallTime: 1388662797.488433] [234.415000] Loading controller: joint2_position_controller
+</span><span class='line'>[INFO] [WallTime: 1388662797.596255] [234.448000] Controller Spawner: Loaded controllers: joint_state_controller, joint1_position_controller, joint2_position_controller
+</span><span class='line'>[INFO] [WallTime: 1388662797.672347] [234.495000] Started controllers: joint_state_controller, joint1_position_controller, joint2_position_controller</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That means that it works. You can start <code>ros_rqtgui</code> to manipulate the controllers:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rosrun rqt_gui rqt_gui</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Enter some control values:</p>
+
+<p><img src="/images/blog/rrbot-with-rqtgui.png" alt="rrbot-with-rqtgui" /></p>
+
+<p>The rrbot should obey to the command:</p>
+
+<p><img src="/images/blog/rrbot-under-control.png" alt="rrbot-under-control" /></p>
+
+<p>(this time, the robot is static)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Arn-O</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-03T20:23:14+01:00" pubdate data-updated="true">Jan 3<span>rd</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/gazebo/'>gazebo</a>, <a class='category' href='/blog/categories/ros/'>ros</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://Arn-O.github.io/blog/2014/01/03/gazebo-install-with-ros-integration-update-1/" data-via="" data-counturl="http://Arn-O.github.io/blog/2014/01/03/gazebo-install-with-ros-integration-update-1/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/01/02/ros-controller-package-dependency-missing/" title="Previous Post: ROS controller_package dependency missing">&laquo; ROS controller_package dependency missing</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/01/05/latex-document-class-for-exercise/" title="Next Post: LaTeX Document class for exercise">LaTeX Document class for exercise &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/05/14/last-blog-post/">Last Blog Post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/20/ubuntu-14-dot-04-lts-trusty-tahr-and-ros/">Ubuntu 14.04 LTS Trusty Tahr and ROS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/19/cs223a-homework-4-done/">CS223A Homework #4: Done!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/04/17/udacity-introduction-to-artificial-intelligence-mooc-started/">CS271 Introduction to Artificial Intelligence Udacity MOOC Started</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/17/i-will-not-meet-the-kuka-innovation-award-deadline-of-today/">I Will Not Meet the KUKA Innovation Award Deadline of Today</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Arn-O">@Arn-O</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Arn-O',
+            count: 5,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/+ArnaudBertrand?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Arn-O -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'arn-olearnsrobotics';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://Arn-O.github.io/blog/2014/01/03/gazebo-install-with-ros-integration-update-1/';
+        var disqus_url = 'http://Arn-O.github.io/blog/2014/01/03/gazebo-install-with-ros-integration-update-1/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

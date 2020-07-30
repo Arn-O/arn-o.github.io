@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Arn-O learns robotics engineering]]></title>
+  <link href="http://Arn-O.github.io/atom.xml" rel="self"/>
+  <link href="http://Arn-O.github.io/"/>
+  <updated>2014-05-14T23:21:24+02:00</updated>
+  <id>http://Arn-O.github.io/</id>
+  <author>
+    <name><![CDATA[Arn-O]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Last Blog Post]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/05/14/last-blog-post/"/>
+    <updated>2014-05-14T22:58:57+02:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/05/14/last-blog-post</id>
+    <content type="html"><![CDATA[<p>Following the review of my <a href="http://zombiebrainzjuice.fr/will-ever-find-blogging-style/">blogging style</a> for the last months, I have decided to create a new blog and to close this one. I have already transferred the best blog posts from this one.</p>
+
+<p>You can now follow me <a href="http://arnaudbertrand.com/">here</a>.</p>
+
+<p>This blog will be definitively shutdown &hellip; one day.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu 14.04 LTS Trusty Tahr and ROS]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/04/20/ubuntu-14-dot-04-lts-trusty-tahr-and-ros/"/>
+    <updated>2014-04-20T16:06:19+02:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/04/20/ubuntu-14-dot-04-lts-trusty-tahr-and-ros</id>
+    <content type="html"><![CDATA[<p>Apart from Easter eggs, April is also the time for the spring release of Ubuntu. I use Ubuntu mainly for running ROS, coding and for servers.</p>
+
+<p>You have to be careful of the compatibility between ROS versions and Ubuntu. As I am currently not using ROS and I do not plan to need it in the coming days, I have decided to upgrade Ubuntu to the 14.04 version this weekend. The new version of ROS expected for May, Indigo, should run on it. The <a href="http://wiki.ros.org/indigo/Installation/Ubuntu">install page</a> is already available. I look forward trying it.</p>
+
+<p>The full process takes a couple of hours, just for installing every software that I use. The installation of ROS can take several hours by itself but I did not do it this weekend.</p>
+
+<p>I have noticed only minor improvements between the 13.04 and the 14.04 versions. The user interface is exactly the same.</p>
+
+<p><img src="http://Arn-O.github.io/images/blog/ubuntu-14.04-desktop.png" alt="ubuntu-14.04-desktop" /></p>
+
+<p>Unfortunately, a <a href="http://arn-o.github.io/blog/2013/12/03/ubuntu-wifi-drops-sometimes/">bug noticed on the WiFi connexion</a> is not fixed. I faced another issue. The mouse pointer was blinking and sometimes stuck on the right of the screen. This is due to the system considering a second built-in display. It has been fixed by switching it off.</p>
+
+<p><img src="http://Arn-O.github.io/images/blog/ubuntu-14.04-display-bug.png" alt="ubuntu-14.04-display-bug" /></p>
+
+<p>This version is a LTS (long term support) and my plan is to keep it as long as possible. The previous one <a href="http://arn-o.github.io/blog/2013/11/24/new-move-to-a-new-pc/">has been installed at the end of November</a>, let&rsquo;s see if I will be able to keep it longer.</p>
+
+<p>Yes, I look for more stability!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Homework #4: Done!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/04/19/cs223a-homework-4-done/"/>
+    <updated>2014-04-19T23:37:45+02:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/04/19/cs223a-homework-4-done</id>
+    <content type="html"><![CDATA[<p>More than 1 month ago, I hoped to deliver the CS223A homeworks in a few days. They are done on the paper, I need to transcript them into LaTeX. This can be done from home only, and it has been very difficult to find time in the evening and during the weekends.</p>
+
+<p>So the <a href="https://github.com/Arn-O/stanford-cs223a/releases/tag/homework_4">homework #4</a> has just been posted. OK, more than 2 months after the previous one, this is not that good.</p>
+
+<p>The next homework will probably takes me time also, it covers 7 hand writing pages. The last one, the homework #6 takes only 2 pages. So still a couple of days to close definitively the course.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS271 Introduction to Artificial Intelligence Udacity MOOC Started]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/04/17/udacity-introduction-to-artificial-intelligence-mooc-started/"/>
+    <updated>2014-04-17T23:00:49+02:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/04/17/udacity-introduction-to-artificial-intelligence-mooc-started</id>
+    <content type="html"><![CDATA[<p>I have clearly neglected this blog in the last weeks. Only 5 entries in March, mainly in the first two weeks, and the last large one has been postdated.</p>
+
+<p>I have been really tired again. The first year of a child is definitively really demanding. I feel a little bit better since only a couple of days. Not that much progress lately on the transcript into LaTeX of the CS223A homeworks, which are done on the paper. I can only do that from my Ubuntu laptop and I did not have time in the evening neither the weekend.</p>
+
+<p>Anyway, I have started the famous Introduction to artificial intelligence MOOC, which is <a href="https://www.udacity.com/course/cs271">available on UDACITY</a>. It was one of my <a href="http://arn-o.github.io/blog/2013/12/08/courses-and-projects-program-for-the-coming-months/">first objective</a> for 2014.</p>
+
+<p>The first two courses are done and I am in the middle of the third one. Peter Norvig and Sebastian Thrun are just awesome. It is fantastic to learn from them and AI is a must topic for robotics. I will not talk more about the content in this blog post.</p>
+
+<p>The Stanford Engineering Everything (SEE) program was already great. The UDACITY platform is somehow better. The video are shorter and you have to answer quizzes to go to the next one. That keeps you highly focused on the course, and if you do not understand properly a sequence, you know it straight away.</p>
+
+<p>Let&rsquo;s get through the transcript of the CS223A homeworks and resume this intro to AI.</p>
+
+<p><img src="http://Arn-O.github.io/images/blog/udacity-intro-to-artificial-intelligence.png" alt="udacity-intro-to-artificial-intelligence" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Will Not Meet the KUKA Innovation Award Deadline of Today]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/03/17/i-will-not-meet-the-kuka-innovation-award-deadline-of-today/"/>
+    <updated>2014-03-17T23:05:50+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/03/17/i-will-not-meet-the-kuka-innovation-award-deadline-of-today</id>
+    <content type="html"><![CDATA[<p>Even if it is quite difficult to write, I have to face the reality. I have nothing to send today to the KUKA Innovation Award team. Failure is bitter, and this one really really bitter. I have to keep in mind that failing is the mandatory way to improve himself. So let&rsquo;s sum what happened and what has been done up to now.</p>
+
+<p>Note: the first links refer to my previous blog.</p>
+
+<h3>May &lsquo;13</h3>
+
+<p>I have <a href="http://zombiebrainzjuice.fr/first-steps-into-robotics-with-webots-rookie-style/">discovered robotics</a> thanks to the free trial of <a href="http://www.cyberbotics.com/overview">Webots</a>, the simulator from Cyberbotics. It was something that I had in mind for months and starting with a simulator has been really convenient.</p>
+
+<p>After this first trial, I looked for a robotics platform to play with a real robot. I had the <a href="http://www.irobot.com/us/learn/home/roomba.aspx">Roomba</a> in mind for a while, the vacuum cleaning robot. This robot is broadly available and I found a lot of doc to hack it.</p>
+
+<p>I finally discovered the <a href="http://www.kuka-labs.com/en/network/innovationaward/">KUKA Innovation Award</a>, and the <a href="http://www.youbot-store.com/youbot-store/youbots/youbots/">youBot robotic platform</a>. The price tag of this robot was too high for me. The solution was to apply to the sponsor track, in which a youBot would be rent for free. I just had to find a project idea.</p>
+
+<h3>June &lsquo;13</h3>
+
+<p>I have been deeply moved by the <a href="http://en.wikipedia.org/wiki/Kismet_(robot)">robot Kismet</a>, the affective computing and the <a href="http://en.wikipedia.org/wiki/Human%E2%80%93robot_interaction">human robot interaction (HRI)</a> in general. My project idea was to develop HRI around an robotic platform that is really far from a human shape, the youBot in this case. Most of the HRI initiatives are based on humanoids and try to mimic human behaviors. This is a very challenging target and unreachable for me. My personal challenge was to deliver something to interact with any robot and develop behaviors that could be understood by anyone.</p>
+
+<p>Let&rsquo;s call it a well-design interface for a robotic system.</p>
+
+<p>I also wanted to use Android based devices as sensors. Robotics sensors are very expensive and a simple smart phone is bundled with a lot of interesting features.</p>
+
+<p>The deadline for the <a href="https://github.com/Arn-O/kuk-A-droid/raw/master/docs/pdf/kuka_innovation_in_mobile_manipulation_award_application_form_(initial).pdf">initial submission</a> was the 14th. The form has been sent on time.</p>
+
+<p>I learnt Java the year before. I spent the end of the month to learn how to code on Android platforms. There is no console, so the tricky part at that time was to master the GUI.</p>
+
+<p>After a couple of experiments, I moved my <a href="http://zombiebrainzjuice.fr/my-development-environment-moved-to-ubuntu-big-change/">coding environment to Ubuntu</a> (the on-boarded PC of the youBot is based on Ubuntu), and never switched back to Windows since then.</p>
+
+<h3>July &lsquo;13</h3>
+
+<p>I had a specific goal in mind when learning Java on Android: build an program that could speak to a script in Python on the PC through the USB interface and the Android Accessory protocol. I have finally mastered this pretty well. I am very proud of this <a href="http://zombiebrainzjuice.fr/python-android-accessory-usb-proof-of-concept/">detail blog post</a> published after this result.</p>
+
+<p>During this month, I also learnt a lot about ROS and Gazebo. This simulator is not very easy to use. Do not get me wrong, I like it very much. You have to be careful of <a href="http://zombiebrainzjuice.fr/how-to-start-and-stop-gazebo-properly/">how to start and stop it</a>. My goal was to convert an outdated <a href="https://github.com/Arn-O/youbot_ros_tools">youBot description to the last standard</a>. Even with <a href="http://zombiebrainzjuice.fr/first-picture-of-simulated-youbot-smile/">some success</a>, I was really far for a workable release.</p>
+
+<h3>August &lsquo;13</h3>
+
+<p>This month is very special, since I have started to <a href="http://zombiebrainzjuice.fr/github-survival-kit-for-linux-social-coding/">keep all my sources on GitHub</a>. I instantly became a big fan of the service.</p>
+
+<p>I have fine tuned Gazebo by <a href="http://zombiebrainzjuice.fr/using-nvidia-chip-driver-thinkpad-laptop-running-ubuntu-backlight/">activating the NVIDIA graphic cards of my laptop from Ubuntu</a>. Tricky not to say time consuming, as usual for a mix of open source and close source software.</p>
+
+<p>I have delivered my first ROS program, a Python teleop program for my <a href="https://github.com/Arn-O/youbot_ros_tools">youBot package</a>. To do that, I had to design how to interact with a Python script from a command line interface, a work that I still use a lot.</p>
+
+<p>Unfortunately, I faced strong issues with the inertia and at that time, I did not have the skills to handle it.</p>
+
+<h3>September &lsquo;13</h3>
+
+<p>I was already really really late for the KUKA award. I was not mastering the robot at all. So I have defined a new planning to have something to show for the coming form submission.</p>
+
+<p>I tried to work on the <a href="http://zombiebrainzjuice.fr/first-result-youbot-workspace-exploration/">workspace of the youBot</a>. I realized after that this work was quite amateurish, as I learnt it during the CS223A course. Anyway, this pure experimental work made the theoretical knowledge from the robotics course even more beneficial. And I have learnt <a href="http://matplotlib.org/">mathplotlib</a>.</p>
+
+<p>During this month, I have open the GitHub repo for my project, dubbed <a href="https://github.com/Arn-O/kuk-A-droid">&ldquo;kuk-A-droid&rdquo;</a>. The README has been well written and a couple of code stubs have been pushed to the repo.</p>
+
+<p>The integration between ROS and Gazebo became erratic, and it has been painful, not to say a nightmare, to have a working simulation of the youBot. Gazebo was under heavy development and I considered at that time that using an instable version for the project was a mistake.</p>
+
+<h3>October &lsquo;13</h3>
+
+<p>In October, the integration between ROS and Gazebo was so bad, that I gave up the simulator for a <a href="http://arn-o.github.io/blog/2013/10/13/major-change-of-design-i-drop-the-dynamics/">pure kinematics approach</a>. I had this idea after a couple of experiment, and with better robotics knowledge, I could have done it before.</p>
+
+<p>A lot of documentation has been written on the kuk-A-droid repository during this period (in the wiki). The main one is the design of a <a href="https://github.com/Arn-O/kuk-A-droid/wiki/Social-expectations-from-the-KUKA-youBot">social behaviors for a robot like the youBot</a>. It was after all the core topic of my project, and it has been a real pleasure to write this.</p>
+
+<p>The <a href="https://github.com/Arn-O/kuk-A-droid/raw/master/docs/pdf/kuka_innovation_in_mobile_manipulation_award_application_form_(final).pdf">final application form</a> has been submitted on time. This one was clearly far better than the previous one. Unfortunately, the progress was quite poor and I had nothing to show.</p>
+
+<p>Thanks to a blog post around the USB hack, I have found a contributor to the kuk-A-droid project. A <a href="http://arn-o.github.io/blog/2013/10/23/call-for-contribution-robotics-project-on-the-air/">call for contribution</a> has been issued for general purpose and <a href="http://arn-o.github.io/blog/2013/10/28/call-for-contribution-3d-graphics-animator/">call for a graphics animator</a>. I have been inspired by the fantastic <a href="http://www.openworm.org/">OpenWorm project</a>. This is how science should be done nowadays. I really wanted to expand the team.</p>
+
+<p>Last event for October, I have started a <a href="http://arn-o.github.io/">new blog</a> dedicated to my work and learning in robotics. This last one is based on octopress and hosted on GitHub pages.</p>
+
+<h3>November &lsquo;13</h3>
+
+<p>My call for contribution for a graphics animator has been successful and the one that joined the team produced <a href="http://arn-o.github.io/kuk-A-droid/demo/">this demo in threejs</a>. There are many similarities between animation and robotics and even more with robotics simulation. He did a fantastic work on the meshes. The mecanum wheels movement are very realistic.</p>
+
+<p>KUKA contacted me for a new page on their website, listing all projects based on the youBot. The <a href="http://www.youbot-store.com/youbot-developers/projects/kuk-a-droid-project?c=62">kuk-A-droid project has been posted</a> on it. This was a first achievement for the team.</p>
+
+<p>This month, the integration between ROS and Gazebo has been fixed. Anyway, my new approach was to control the full trajectory, and to do that, I have <a href="http://arn-o.github.io/blog/2013/11/15/sequence-editor-upgraded-to-handle-several-joints/">developed a sequence editor</a> that generates smooth joint position curves. I got inspired by the animation world. I learnt afterwards that it was a good method for defining trajectories.</p>
+
+<p>But the real event of this month is that <a href="http://arn-o.github.io/blog/2013/11/27/no-news-from-the-kuka-award/">after one month and an half without feedback</a> from KUKA and the opportunity to be sponsored, I more or less gave up the award. Not an easy decision as you can imagine.</p>
+
+<h3>December &lsquo;13</h3>
+
+<p>After this decision, I have defined a <a href="http://arn-o.github.io/blog/2013/12/08/courses-and-projects-program-for-the-coming-months/">courses and projects plan for the next year</a>. I missed a lot of basic robotics knowledge during the project, so this plan aimed at giving me the background for most of robotics topics (well, I am quite late on this now).</p>
+
+<p>During this month, I have started the CS223A Introduction to robotics from Stanford Engineering Everywhere. I learnt a lot, it was clearly a required starting point.</p>
+
+<p>In the last day of the year, I have <a href="http://arn-o.github.io/blog/2013/12/31/the-kuka-innovation-award-is-not-canceled/">discovered by luck on GitHub</a> that the Award was still on-going. Without news from KUKA, it was clear that I was no longer on race.</p>
+
+<h3>January 2014</h3>
+
+<p>The CS223A was quite time consuming and I decided to focus as much as possible on it. I had to master again matrix geometry and derivatives. No code during this course, so I took the opportunity to learn LaTeX.</p>
+
+<p>The 22nd of January I finally received a mail from the KUKA innovation team. I have asked if they could rent me a youBot, but unfortunately they couldn&rsquo;t. I was really pleased to be in the loop. That was nevertheless not clear if I still had an opportunity to propose something (considering that the results are expected on an hardware platform).</p>
+
+<p>The deadline for the final submission was the 17th of March.</p>
+
+<h3>February 2014</h3>
+
+<p>I focused on the CS223A and a couple of side topics.</p>
+
+<h3>March 2014</h3>
+
+<p>I have finished all the lectures and homeworks of the CS223A. As of writing, I still need to code them in LaTeX.</p>
+
+<p>The 17th of March is today I will not send anything the KUKA innovation team.</p>
+
+<p>Note: this blog post has been published almost one month after the deadline (but started the very day).</p>
+
+<p><img src="http://Arn-O.github.io/images/blog/rviz-meshes-color-render-fixed.png" alt="youbot-in-rviz" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #15 & #16: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/03/16/cs223a-lecture-15-16-watched/"/>
+    <updated>2014-03-16T08:21:15+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/03/16/cs223a-lecture-15-16-watched</id>
+    <content type="html"><![CDATA[<p>Here we are, I have finally watched the last lectures of the CS223A from SEE. The <a href="http://www.youtube.com/watch?v=A6QEQFTBKnA">lecture 15</a> explains how to apply the theory of a single controller to a full robot with several joints. The <a href="http://www.youtube.com/watch?v=DdqNdpcFcF8">lecture 16</a> is an overview of advanced robotics.</p>
+
+<p>The content of the lecture 15 is:</p>
+
+<ul>
+<li>problem description, dynamic coupling</li>
+<li>stability of the PD control in case of a robot</li>
+<li>non-linear decoupling with the estimate technique</li>
+<li>joint space/task space relationship</li>
+<li>robot control with a field of force</li>
+</ul>
+
+
+<p>The lecture 16 describes:</p>
+
+<ul>
+<li>force control</li>
+<li>sensing</li>
+<li>introduction to humanoid robotic</li>
+<li>safe robotic arm design</li>
+<li>mobile manipulation</li>
+<li>skeleton animation</li>
+<li>learning to improve efficiency of motion</li>
+<li>human natural motion</li>
+</ul>
+
+
+<p>This last course is the conclusion of the introduction to robotics and opens a lot of new topics in a very short period of time. Each of those topics is deeply interesting and is probably a long term study by itself. It is also amazing to see how different they are, probably due to the multi-disciplinary nature of robotics. And they are all enable by the mathematics and physics abstraction.</p>
+
+<p>I will not be able to write down the assignments before this evening. I have not be able to work on them in the last days. Anyway, I am now very close, and it is only a matter of days.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #13 & #14: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/03/10/cs223a-lecture-13-14-watched/"/>
+    <updated>2014-03-10T14:05:04+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/03/10/cs223a-lecture-13-14-watched</id>
+    <content type="html"><![CDATA[<p>After an efficient Saturday, Sunday has been efficient too. I have watched the <a href="http://www.youtube.com/watch?v=5-k2RzfIgoU">lecture #13</a> and the <a href="http://www.youtube.com/watch?v=U3diaQ-iU0I">lecture #14</a>. The last lectures of the CS223A course are dedicated to robot control. Robot control is the art to activate joints space to generate the desired motion.</p>
+
+<p>The content of the lecture #13 is:</p>
+
+<ul>
+<li>conservative natural systems</li>
+<li>dissipative natural systems</li>
+<li>natural frequency and damping ratio</li>
+</ul>
+
+
+<p>The lecture #14 describes:</p>
+
+<ul>
+<li>system stability</li>
+<li>gains manipulation</li>
+<li>unit mass system</li>
+<li>non linear systems control</li>
+<li>motion control, including constrains on speed and acceleration</li>
+</ul>
+
+
+<p>The robot control topic, at least the introduction, is far less complicated than dynamics. It only deals with second order, single variable, derivative functions. Robot control, and system control more generally, is a matter by itself, and I am obviously far from the real challenges.</p>
+
+<p>Still two lectures to complete the course. The good news is also that the homeworks #4 and #5 are done, on paper. I need to encode in LaTeX the 10 pages of matrix and derivative calculation. This cannot unfortunately be done remotely.</p>
+
+<p>Hopefully the course will be fully completed at the end of the next weekend.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #11 & #12: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/03/09/cs223a-lecture-11-12-watched/"/>
+    <updated>2014-03-09T17:14:11+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/03/09/cs223a-lecture-11-12-watched</id>
+    <content type="html"><![CDATA[<p>Currently on travel for the weekend, I have been able to watch the <a href="http://www.youtube.com/watch?v=o3Xx3vi6qzo">lecture #11</a> and the <a href="http://www.youtube.com/watch?v=MCmkUJGYvOY">lecture #12</a> of the CS223A SEE in a row. I am completely over planning, and this helps to close the course.</p>
+
+<p>Both courses deal with dynamics, which is quite a complicated topic with a lot of advanced equations like the Lagrange one. With time a focus, I manage to follow it well. Let see how I feel with the exercises. This topic is obviously a must for robotics.</p>
+
+<p>Here is the content of the lecture #11:</p>
+
+<ul>
+<li>Newton-Euler and Lagrange formulation</li>
+<li>angular momentum of a rigid body</li>
+<li>inertia tensor</li>
+<li>dynamics force on a rigid body, which could be a robot segment</li>
+</ul>
+
+
+<p>And the content of the lecture #12:</p>
+
+<ul>
+<li>Lagrange equations</li>
+<li>focus on the kinetic energy</li>
+<li>explicit form of the mass matrix</li>
+<li>mass matrix properties</li>
+<li>centrifugal and Coriolis forces on a simple case</li>
+<li>Christoffel symbols</li>
+<li>gravity vector</li>
+</ul>
+
+
+<p>Let now see how I feel with the exercises.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[KUKA youBot Firmware Updated to v2.00]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/03/08/kuka-youbot-firmware-updated-to-v2-dot-00/"/>
+    <updated>2014-03-08T17:29:18+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/03/08/kuka-youbot-firmware-updated-to-v2-dot-00</id>
+    <content type="html"><![CDATA[<p>I am still in the loop of the <a href="http://www.kuka-labs.com/en/network/innovationaward/">KUKA Innovation Award</a> candidates communication, and I have received this information that may interest someone. A new version of the KUKA youBot firmware have been released.</p>
+
+<p>To download it, you have to register to the <a href="http://www.kuka-labs-forum.com/">KUKA Labs forum</a> and provide the 6-digit serial number of your youBot. I do not have any youBot by myself, so if anyone has tried, please post in the comments.</p>
+
+<p>I will probably stay no for long in this kind of communication. I am still technically speaking in the challenge but unfortunately I will not be able to meet the next milestone in a couple of days.</p>
+
+<p>More to come about that last point.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Feedback on My Codenvy Experience]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/02/19/feedback-on-my-codenvy-experience/"/>
+    <updated>2014-02-19T22:32:59+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/02/19/feedback-on-my-codenvy-experience</id>
+    <content type="html"><![CDATA[<p>As being frequently on travel, I <a href="http://arn-o.github.io/blog/2014/01/27/coding-in-the-cloud-with-codenvy-and-google-app-engine/">tried Codenvy</a> for coding far from home through a simple web browser. Everything has been started by this <a href="http://arn-o.github.io/blog/2013/12/28/codenvy-to-the-rescue-of-developers/">paper</a> from Codenvy. Moreover, I needed a solution to code from Chromebook.</p>
+
+<p>After a long trial, I am finally not fully convinced. I met some cumbersome issues, like non-working characters. I was just not able to type them, and coding in Python without <code>(</code> is not that easy. The diff pushed from the Codenvy IDE are not considered as contribution on GitHub. I will not keep going in this direction.</p>
+
+<p>I did not loose my time, though. I have discovered Python web frameworks and this is clearly a really good option for creating UI to Python programs. I will develop this skill in the coming months. The learning curve is quite steep and requires mixed coding language skills.</p>
+
+<p>I am a bit far from robotics and this kind of experiments will now be posted on my other <a href="http://zombiebrainzjuice.fr/">blog</a>. Applications to robotics can nevertheless be thought. For intensive calculation algorithms, we can imagine to build an API in charge of computing, backed with a powerful CPU. Robots on boarded ships tried to stay as lightweight as possible.</p>
+
+<p>Last word, for coding remotely, I have finally purchased an <a href="https://www.kimsufi.com/fr/">hosted sever from OVH</a>. All my VIM based coding environment is setup on it, I just have to connect to it through SSH. This option will also be convenient for coding Python web app.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #10: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/02/17/cs223a-lecture-10-watched/"/>
+    <updated>2014-02-17T22:51:16+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/02/17/cs223a-lecture-10-watched</id>
+    <content type="html"><![CDATA[<p>This <a href="http://www.youtube.com/watch?v=7wIqGavQjTQ">lecture</a>, like the previous one, is provided by a guest, <a href="http://www.youtube.com/watch?v=7wIqGavQjTQ">Pr. Krasimir Kolarov</a>. The general topic deals with trajectory planning. Here is the content of this lecture:</p>
+
+<ul>
+<li>basic problem, how to move a robot from one position to a target</li>
+<li>Cartesian or joints space approaches</li>
+<li>single cubic polynomial curve</li>
+<li>cubic polynomial with <em>via</em> points</li>
+<li>linear with parabolic blend and several segments</li>
+<li>higher order polynomials for dealing with run time path generation</li>
+</ul>
+
+
+<p>I am glad to see that the suggested solution for generating trajectory is similar to an idea I have developped myself, based on <a href="http://arn-o.github.io/blog/2013/11/04/keyframes-interpolation-using-bezier-curves/">Bézier curves</a>. The equation is a little bit different. It is a polynomial curve also, but shaped differently.</p>
+
+<p>This lecture is also the demonstration that the inverse kinematics problem is a trajectory problem, and not an equations solving one (I still want to develop this idea in a dedicated blog post).</p>
+
+<p>I have watched this video more than one week ago. The last week has been pretty difficult and exausting, I did not even have time to update this blog for my birthday. I hope that better times will come.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Intermediate Calculation in LaTeX With Math]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/02/09/intermediate-calculation-in-latex-with-math/"/>
+    <updated>2014-02-09T18:52:52+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/02/09/intermediate-calculation-in-latex-with-math</id>
+    <content type="html"><![CDATA[<p>You sometimes need to describe intermediate calculation to explain how to solve a problem. In LaTeX, if you declare each line as a new equation, they will be centered and numbered, which is not conventional.</p>
+
+<p>One way to fix this, is to use the <code>\begin{split}</code> tag. The code looks like that:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>\begin{equation}
+</span><span class='line'>  \begin{split}
+</span><span class='line'>    det(\prescript{1}{}J_{v}) & = (c_{2}c_{3}+c_{2}+1)(c_{2}^{2}c_{3}s_{3}+c_{2}^2s_{3}) - s_{3}(c_{2}c_{3}^2+c_{2}c_{3}) + (c_{2}c_{3}+c_{2}+1)(s_{2}^2s_{3}c_{3}+s_{2}^2s_{3}) \\
+</span><span class='line'>    & = (c_{2}c_{3}+c_{2}+1)(c_{2}^2s_{3}c_{3}+c_{2}^2s_{3}c_{3}+s_{2}^2s_{3}) - s_{3}(c_{2}c_{3})(1+c_{3}) \\
+</span><span class='line'>    & = (c_{2}c_{3}+c_{2}+1)(s_{3}c_{3}+s_{3}) - s_{3}c_{2}c_{3}(1+c_{3}) \\
+</span><span class='line'>    & = s_{3}(c_{2}c_{3}+c_{2}+1)(1+c_{3}) - s_{3}c_{2}c_{3}(1+c_{3}) \\
+</span><span class='line'>    & = s_{3}(1+s_{3})(c_{2}c_{3}+c_{2}+1-c_{2}c_{3}) \\
+</span><span class='line'>    & = s_{3}(1+c_{3})(1+c_{2}) \\
+</span><span class='line'>  \end{split}
+</span><span class='line'>\end{equation}</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Each line is aligned on the <code>&amp;</code> symbol. This equation is nicely rendered that way:</p>
+
+<p><img src="http://Arn-O.github.io/images/blog/latex-aligning-equations.png" alt="latex-aligning-equations" /></p>
+
+<p>This <a href="http://www.sharelatex.com/learn/Aligning_equations_with_amsmath">link</a> has been useful.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Homework #3: Done!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/02/08/cs223a-homework-3-done/"/>
+    <updated>2014-02-08T21:49:37+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/02/08/cs223a-homework-3-done</id>
+    <content type="html"><![CDATA[<p>This is now official, I am in the middle of the CS223A course. I have just posted the <a href="https://github.com/Arn-O/stanford-cs223a/releases/tag/homework_3">homework #3</a>.</p>
+
+<p>I did this one in two weeks, exactly the same time than the homework #2. In fact, I did the first two exercises in a couple of days, and I hoped to go really faster this time.</p>
+
+<p>Unfortunatly, the exercise 3 requires a lot of trigonometric calculation. I had to make them several times to find the right answer. The part (d) was even worse. I had to cheat to find the answer. The equation can become really complicated, the factorisation used in the solution is really tricky (or maybe I am no longer used to make trigonometric calculation).</p>
+
+<p>My daily work has not been helpfull either. I had to travel three days. It was the first time since I am engaged in online learning and I need to organize myself better during this type of period.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #9: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/02/07/cs223a-lecture-9-watched/"/>
+    <updated>2014-02-07T23:43:50+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/02/07/cs223a-lecture-9-watched</id>
+    <content type="html"><![CDATA[<p>The <a href="http://www.youtube.com/watch?v=-B3cyFXrhos">lecture #9</a> deals with computer vision, and this time the lecturer is a guest, <a href="http://www.cs.jhu.edu/~hager/">Gregory D. Hager</a>.</p>
+
+<p>The course is an introduction to this highly interesting topic, and it is just amazing. If you have not already watched the video, do it right away.</p>
+
+<p>Content of the lecture:</p>
+
+<ul>
+<li>stereo vision, how to analyse a 3D environment from camera images</li>
+<li>matching, how to link 2 area of different images to the same real object</li>
+<li>object recognition</li>
+<li>visual tracking, including occlusion</li>
+<li>visual feedback, how to command a robot from camera images</li>
+</ul>
+
+
+<p>Gregory gives the right information, what are the challenges, what are the ideas to solve them, enough to make you understand how to deal with computer vision, without loosing anybody in further developments.</p>
+
+<p>Everybody applauds at the end, so I guess that they enjoy the presentation as I did.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #8: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/02/06/cs223a-lecture-8-watched/"/>
+    <updated>2014-02-06T22:09:34+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/02/06/cs223a-lecture-8-watched</id>
+    <content type="html"><![CDATA[<p>No time to post the information on Sunday (I had a plane to catch), I have watched the <a href="http://www.youtube.com/watch?v=-B3cyFXrhos">lecture #8</a> of the CS223A. I am therefore somehow in the middle of the course, since the homework #3 is almost over too. I know, I am really far from the initial schedule.</p>
+
+<p>This lecture is dedicated to singularities. A singularity is a position of a robotic arm where a direction or orientation usually availaible becomes unreachable. The arm is less dexterous.</p>
+
+<p>The position itself is singular, and the area around this position has also unexpected properties that makes the robot more difficult to control. So for a perfect manipulation, this kind of position should be avoided. The Jacobian is the perfect tool to identify them.</p>
+
+<p>The end of the course is a first overview of dynamics, and show how to associate force and Jacobian to calculate torque.</p>
+
+<p>The next lecture will be done by a guest and will deal with computer vision.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #7: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/01/28/cs223a-lecture-7-watched/"/>
+    <updated>2014-01-28T22:35:14+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/01/28/cs223a-lecture-7-watched</id>
+    <content type="html"><![CDATA[<p>A short post this evening to confirm that I have watched the <a href="http://www.youtube.com/watch?v=6SRTAoyzC6A">lecture #7</a> of the CS223A. In this lecture, Prof. Oussama Khatib spends a lot of time to demonstrate the trick to determine the Jacobian from the successive intermediate transforms.</p>
+
+<p>It looks like I am ahead of this lecture with the homeworks, since I have already used that trick to solve problems from the homework #3.</p>
+
+<p>The next lecture should deal with the singularities, the first application of the Jacobian.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Coding in the Cloud With Codenvy and Google App Engine]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/01/27/coding-in-the-cloud-with-codenvy-and-google-app-engine/"/>
+    <updated>2014-01-27T22:15:44+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/01/27/coding-in-the-cloud-with-codenvy-and-google-app-engine</id>
+    <content type="html"><![CDATA[<p>The CS223A is a great course, but sometimes I miss coding. A couple of month ago, I <a href="http://zombiebrainzjuice.fr/my-development-environment-moved-to-ubuntu-big-change/">switched to Ubuntu</a> for all coding activities. This is great, except that I need my Ubuntu box handy. I know that I can access it by SSH, a web based IDE looks a elegant option.</p>
+
+<p>I wanted to give a try to Codenvy. I have been impressed by <a href="http://arn-o.github.io/blog/2013/12/28/codenvy-to-the-rescue-of-developers/">this information</a> found on the Codenvy website. Even if I keep thinking that it is not ideal for robotics, I have created this new project on GitHub, a <a href="https://github.com/Arn-O/py-codenvy-cheatsheet">Codenvy Cheatsheet</a>. I will explain how to use Codenvy and Google App Engine, when you are used to a standard, text based Python.</p>
+
+<p>The web layer is somehow cumbersum and requires a lot of work for simple results. For coding in general and working on algorithmes, this a really convenient tool for reason that I will detail in the project directly. Just to name one, you can easily increase your computing power for a couple of Euros.</p>
+
+<p>I have to say that I am pretty excited about this new project. Follow my progress directly on GitHub.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Homework #2: Done!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/01/25/cs223a-homework-2-done/"/>
+    <updated>2014-01-25T21:54:31+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/01/25/cs223a-homework-2-done</id>
+    <content type="html"><![CDATA[<p>Clearly not on track of the schedule from <a href="http://arn-o.github.io/blog/2014/01/21/bulleting-tabularing-and-centering-in-latex/">this post</a>, but quite statisfied however, I have just finished the homework 2 of the CS223A.</p>
+
+<p>The first exercise costs me a lot of time, and helps to understand several hard points that I did not catch during the reading (it deals with the transformation matrix and the displacements). I definitivement feel more confortable with the kinematics and the algebraic math behind.</p>
+
+<p>I was used to have a very good steric vision, and I have clearly lost it. It has not been easy at all to apply the Danevit-Hartenberg method, even if it is conceptually understandable. It was better at the end, probably something that I should train, just to keep my brain fit and improve my focus.</p>
+
+<p>Finally I had to learn <a href="http://arn-o.github.io/blog/2014/01/21/bulleting-tabularing-and-centering-in-latex/">additional LaTeX tags</a>, especially for drawing tables.</p>
+
+<p>So, about 15 days between the last homework and this one. Let&rsquo;s try to do better for the next one, which is already in progress (on the paper).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CS223A Lecture #6: Watched!]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/01/23/cs223a-lecture-6-watched/"/>
+    <updated>2014-01-23T22:22:22+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/01/23/cs223a-lecture-6-watched</id>
+    <content type="html"><![CDATA[<p>I am in a good series with the CS223A, since I have watched the <a href="http://www.youtube.com/watch?v=fwHc0a8DMQ0">6th lecture</a> today, 3 days after the <a href="http://arn-o.github.io/blog/2014/01/20/cs223a-lecture-5-watched/">previous one</a>. And thanks to the reading of additional document on the subject and several readings of the handouts in parallel, the course on video is really an efficient way of learning.</p>
+
+<p>So the main topic of this course is the famous Jacobian. The Jacobian is a matix that gives the differential motion of the end effector for a differential motion of the joints. It is widely used in robot control.</p>
+
+<p>In details, the topics are:</p>
+
+<ul>
+<li>the joints coordinates vector</li>
+<li>direct differentiation of the end effector position</li>
+<li>application to the Stanford Scheinman arm (with a big trick)</li>
+<li>focus on the representation</li>
+<li>linear and angular velocity in different frames</li>
+</ul>
+
+
+<p>I am really happy to have understood today this really important concept of robot kinematics. It confirms that my understanding on IK (inverse kinematics) was wrong and should be deeply reconsidered. I will develop this in another blog post.</p>
+
+<p>I will probably stop watching the courses now, because I am too late on the exercises.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Skeleton Animation in ROS]]></title>
+    <link href="http://Arn-O.github.io/blog/2014/01/22/skeleton-animation-in-ros/"/>
+    <updated>2014-01-22T22:40:22+01:00</updated>
+    <id>http://Arn-O.github.io/blog/2014/01/22/skeleton-animation-in-ros</id>
+    <content type="html"><![CDATA[<p>During my initial researches about IK (inverse kinematics), I found this very good paper, known as <a href="http://graphics.ucsd.edu/courses/cse169_w04/welman.pdf">the Welman</a>. This document discuss algorithms to animate skeletons. A robot and a skeleton are similar in a kinematics point of view, except the number of DOF (degrees of freedom), which is very much higher for skeletons.</p>
+
+<p>So I that time, I imagined to simulate a realistic skeleton in a robotic simulator, with bones meshes for a astounding render. Nice but useless, so I did not spend more time on it.</p>
+
+<p>I have received a mail two days ago, requiring help for using ROS and for precisely animating a skeleton. The contact is equiped with a <a href="http://www.vicon.com/">vicon</a> motion capture system. You know, the system that records complex motion for animation for exemple:</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/7/73/MotionCapture.jpg" alt="motion-capture" /></p>
+
+<p>Really interesting, that would be nice to work on a dump of data from a vicon to inject it in ROS. This is moreover close to what I plan to do in the <a href="http://arn-o.github.io/blog/2013/11/03/insights-from-animation-tools/">kuk-A-droid project</a>, for the emotion sequence.</p>
+
+<p>The basic requirement was to deal with the <code>joint_state_publisher</code>, as described in <a href="http://arn-o.github.io/blog/2013/10/14/ros-joint-state-publisher-part-1/">this blog post</a> and in <a href="http://arn-o.github.io/blog/2013/10/15/ros-joint-state-publisher-part-2/">this other blog post</a>.</p>
+
+<p>I took it as an opportunity to work on ROS this evening (even if I should focus on the CS223A). I did not have that much occasion to do so recently. It looks like I did not loose my skills and managed to make it work just in a couple of minutes:</p>
+
+<p><img src="http://Arn-O.github.io/images/blog/skeleton-rviz-teleop.png" alt="skeleton-rviz-teleop" /></p>
+
+<p>I have sent the files back, and proposed my support for the next steps. Let&rsquo;s see what will happen.</p>
+]]></content>
+  </entry>
+  
+</feed>
